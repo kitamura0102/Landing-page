@@ -17,6 +17,7 @@ img {
   position: relative;
   top: 60px;
   right: 60px;
+  border-radius: 5%
 }
 /* Navbar */
 
@@ -47,11 +48,12 @@ img {
 .container1 {
   width: 650px;
   height: 280px;
-  top: 120px;
-  left: 130px;
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   position: relative;
+  top: 35%;
+  left: 17%;
+  translate: -35% -17%;
+
 }
 h1 {
   position: relative;
@@ -67,4 +69,5 @@ h1 {
   color: #f9faf8;
   padding: 5px 30px;
   cursor: pointer;
+  margin-top: 20px;
 }
