@@ -71,3 +71,54 @@ h1 {
   cursor: pointer;
   margin-top: 20px;
 }
+
+/* Random Information */
+h2{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+  
+}
+
+.random-information{
+  height: 600px;
+  
+}
+
+
+/* Boxes */
+
+.big-box{
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+
+}
+.box{
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+
+  border: solid #3882f6 4px;
+  
+}
+.boxes{
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.boxes p{
+  color: #1f2937;
+}
