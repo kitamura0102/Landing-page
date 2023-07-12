@@ -17,8 +17,9 @@ img {
   position: relative;
   top: 60px;
   right: 60px;
-  border-radius: 5%
+  border-radius: 5%;
 }
+
 /* Navbar */
 
 .navbar {
@@ -26,6 +27,7 @@ img {
   display: flex;
   justify-content: space-around;
 }
+
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
@@ -38,13 +40,17 @@ img {
 }
 
 /* Header */
-.header {
+.header,
+.quote {
   background-color: #1f2937;
+}
 
+.header {
   height: 600px;
   display: flex;
   justify-content: space-around;
 }
+
 .container1 {
   width: 650px;
   height: 280px;
@@ -52,15 +58,16 @@ img {
   position: relative;
   top: 35%;
   left: 17%;
-  translate: -35% -17%;
-
+  transform: translate(-35%, -17%);
 }
-h1 {
-  position: relative;
+
+h1,
+h2 {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
 }
+
 .btn {
   background-color: #3882f6;
   border: none;
@@ -73,7 +80,7 @@ h1 {
 }
 
 /* Random Information */
-h2{
+h2 {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
@@ -81,34 +88,29 @@ h2{
   text-align: center;
   margin-top: 40px;
   width: 100%;
-  
 }
 
-.random-information{
+.random-information {
   height: 600px;
-  
 }
-
 
 /* Boxes */
 
-.big-box{
-  
+.big-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 70px;
-
 }
-.box{
+
+.box {
   height: 200px;
   width: 200px;
   border-radius: 20px;
-
   border: solid #3882f6 4px;
-  
 }
-.boxes{
+
+.boxes {
   text-align: center;
   height: 300px;
   width: 300px;
@@ -117,8 +119,37 @@ h2{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
 }
-.boxes p{
+
+.boxes p {
   color: #1f2937;
+}
+
+/* Quote */
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  height: 400px;
+  width: 100%;
+}
+
+blockquote {
+  max-width: 1000px;
+  max-height: 300px;
+}
+
+blockquote p {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+cite {
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  text-align: right;
 }
